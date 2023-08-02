@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-banner-img {
+    position: relative;
+}
+
+.menu{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.493),rgba(255, 255, 255, 0.075));
+   height:130px;
+   
+  
+}
+
+.menu-item .nav-item{
+   margin: 20px;
+   
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    font-size: 19px;
+
+}
+
+
+.top-banner-content {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+
+}
+
+.a-big-factory-heading h1 {
+    font-size: 80px;
+    color: white;
+}
+
+
+.top-banner-para p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.banner-button {
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fbce3d;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.read-more-button {
+    margin-right: 250px;
+}
+
+.get-started-button {
+    margin-left: 250px;
+}
+
+.horizontal {
+    background-color: #fbce3d;
+    height: 153px;
+    padding: 20px;
+    position: relative;
+}
+
+.float-start.have-any-questions {
+    position: relative;
+}
+
+.float-end.horizontal-button {
+    position: relative;
+    margin: 30px 0;
+}
+
+.container-fluid.horizontal-column {
+    background-color: #fbce3d;
+}
+
+.col.col-md-6.left-part {
+    padding: 40px;
+}
+
+.col.col-md-6.right-part {
+    padding: 40px;
+    margin: 33px 0;
+    text-align: end;
+}
+
+.request {
+    border: 1px solid black;
+    color: black;
+    background-color: #fbce3d;
+    margin-right: 50px;
+}
+
+.request:hover {
+    color: white;
+    background-color: black;
+}
+
+.services {
+    margin-top: 70px;
+}
+
+.services .card{
+    border: none;
+}
+
+
+.our-story {
+    background-color: #f1f1f1;
+    margin-top: 50px;
+
+
+}
+
+.our-story-headings {
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.our-story-content {
+    padding-top: 30px;
+}
+
+.about-right-heads,
+.about-left-heads {
+    margin-top: 40px;
+}
+
+
+.fade-content {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    /* to make it colored on a faded image */
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+
+
+.img-on-fade,
+.story-hori {
+    margin-top: 90px;
+}
+
+.img-on-fade {
+    /* to make it colored on a faded image */
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+.hori-img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.small-lines {
+    display: flex;
+    margin: auto;
+    width: 9%;
+}
+
+
+.small-lines p {
+    text-align: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 40px;
+    height: 5px;
+    /* to make it colored on a faded image */
+    z-index: 1;
+    position: relative;
+    color: white;
+
+
+}
+
+.small-lines-white {
+    margin: 10px;
+    margin-top: 60px;
+
+}
+
+.diff-logo {
+    margin: auto;
+    width: 91%;
+}
+
+.hori-bg {
+    background-image: url(../fade.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.hori-bg::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.our-team{
+    margin-top: 30px;
+   
+}
+
+.team{
+    margin-top: 40px;
+}
+
+.our-team-heads {
+    text-align: center;
+}
+
+.member {
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.counter-section {
+    margin-top: 40px;
+    background-color: #fbce3d;
+    padding: 60px;
+}
+
+.diff-counter {
+    margin: auto;
+    width: 100%;
+    display: flex;
+
+}
+
+.diff-counter-row {
+    margin: auto;
+    text-align: center;
+
+}
+
+.Testimonials-section {
+    background-color: #f1f1f1;
+
+}
+
+
+
+.testimonial-heads {
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.testimonial-img {
+    display: flex;
+}
+
+
+.testimonial-cards .card{
+    border: none;
+}
+
+.test {
+    padding-top: 60px;
+}
+
+.testimonial-content{
+    margin-top: 20px;
+}
+
+.quality {
+    margin-top: 60px;
+    background-image: url(../yellow-fade.jpg);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.quality::before {
+    content: '';
+    position: absolute;
+    background-color: #d4b962c4;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.quality-content {
+    padding: 100px;
+}
+
+.quality-content-heads {
+
+    width: 60%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+
+.sign {
+    margin-top: 20px;
+}
+
+
+
+.blogs-news-heads {
+    text-align: center;
+}
+
+.blogs-news {
+    margin-top: 70px;
+}
+
+.blog-card {
+    display: flex;
+    width: 83%;
+    margin: auto;
+
+}
+
+.blog-single-card {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.blog-img {
+    position: relative;
+}
+
+.blog-date {
+
+    text-align: center;
+    background-color: #fbce3d;
+    position: absolute;
+    border: 1px solid #fbce3d;
+    top: 88%;
+}
+
+.blog-date p {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.blog-content {
+    margin-top: 30px;
+}
+
+.footer-section {
+    background-color: black;
+    margin-top: 30px;
+}
+
+.footer-content{
+    padding: 50px;
+}
+
+
+
+.mini-logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mini{
+    margin-right: 15px;
+}
+
+.read-more-button a:link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.get-started-button a:link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.read-more-link a:link{
+    color: #fbce3d;
+    text-decoration: none;
+}
+
+.mini-head a:link{
+    color: #fbce3d;
+    text-decoration: none;
+}
